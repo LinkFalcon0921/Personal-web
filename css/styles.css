@@ -1,0 +1,135 @@
+html {
+  width: 100%;
+  height: 1300px;
+  background-color: #c7c7c7;
+}
+
+* {
+  text-transform: uppercase;
+}
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.head {
+  background: #ea680b;
+}
+
+.head * {
+  display: inline-block;
+}
+
+#photo {
+ position: absolute;
+ content: url(/img/foto_perfil.jpg);
+ background-repeat: no-repeat;
+ top: 2.4em;
+ left: 6em;
+ width: 200px;
+ height: 200px;
+}
+
+.my_name {
+  width: 95%;
+  color: #ffffff;
+  margin-top: .8em;
+  padding: 0;
+  text-align: end;
+  vertical-align: top;
+}
+.my_name h2{
+  font-size: 136px;
+}
+
+.my_name p{
+  font-size: 30px;
+}
+
+.my_name #name-owner {
+  margin: 0;
+}
+.info-owner {
+  /* display: inline-block;
+  height: 100%;
+  width: 22%;*/
+  background-color: #ea680b; 
+  float: left;
+  width: 24%;
+  height: 100%;
+  text-align: center;
+  padding-top: 5em;
+}
+
+/* items dentro de info-owner */
+.info-owner .info-data{
+  margin-top: 2em;
+  padding: 1em;
+  background-color: #FFA462;
+}
+
+.info-owner .info-data a{
+  text-decoration: none;
+}
+
+.body-owner {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  width: 65%;
+  height: auto;
+  margin-left: 5em;
+}
+
+/* titulo experiencias */
+.head-body h3 ,.headHobbies h3,.viewsLinks header h3{
+  padding: 0.5em;
+  text-align: center;  
+  font-size: xx-large;
+  color: #fff;
+  background-color: #000000;
+}
+
+.info-owner .infos-body {
+  width: 100%;
+}
+/* text title */
+.infos-body .info-front,.infos-body .info-back{
+  display: inline-block;
+  width: 48.98%;
+  border: 3px solid rgba(0, 0, 0, 0.644);
+  text-align: center;
+  vertical-align: top;
+}
+
+.info-front div{
+  margin: 24% 0 0;
+}
+
+.info-back div{
+  margin: 15.95% 0 0;
+}
+
+/* hobbies */
+.bodyHobbies .elems{
+  list-style-type: none;
+  text-align: center;  
+}
+
+/* videos */
+.viewsLinks{
+  margin-top: 3em;
+}
+
+.viewsLinks div{
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.viewsLinks div a{
+  text-decoration: none;
+}
