@@ -23,7 +23,6 @@ body {
 
 #photo {
  position: absolute;
- content: url(/img/foto_perfil.jpg);
  background-repeat: no-repeat;
  top: 2.4em;
  left: 6em;
